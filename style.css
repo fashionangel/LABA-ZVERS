@@ -34,8 +34,151 @@ h1{
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
-    color: #333333;;
+    color: #333333;
     width: 379px;
     margin-bottom: 56px;
-   
 }
+
+.basic_text_main{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #333333;
+    margin-bottom: 56px;
+}
+
+.location-text-main{
+    margin:0;
+}
+
+.location-text{
+    margin: 30px auto;
+}
+
+
+
+
+.about-section {
+    max-width: 1180px; 
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333333;;
+    width: 400px;
+    margin-bottom: 32px;
+    margin-right: 20px;
+}
+    
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px; 
+    margin-bottom: 32px; 
+}
+.part1 p, .part2 p {
+    font-size: 16px; 
+    line-height: 140%; 
+    font-weight: 400;
+    margin: 0;
+}
+.part1 p:first-child {
+    margin-bottom: 30px; 
+}
+
+.image-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2%; 
+}
+
+.location-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+section {
+    max-width: 1180px; 
+    margin: 80px auto;
+    padding: 0 20px;
+}
+section h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333333;;
+    width: 580px;
+    margin-bottom: 32px;
+    margin-right: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    row-gap: 30px; 
+}
+
+.location-card-prod {
+    width: 380px; 
+    height: 435px;
+    background-color: #f5f5f5; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.location-card-prod img {
+    width: 225px;
+    height: 219px; 
+    object-fit: contain; 
+    padding: 30px 20px 10px 20px; 
+    display: block;
+    box-sizing: border-box;
+}
+
+.location-card-prod div {
+    padding: auto 82px 68px 24px; 
+}
+
+.location-card-prod h4 {
+    font-style: SemiBold;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    color: #333333;;
+    width: 400px;
+    margin-bottom: 12px;
+}
+
+.text-card {
+    
+    font-weight: 400;
+    font-size: 20px;
+    color: #607CE6;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.about-section-map{
+    max-width: 1180px; 
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
